@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel Decorative');
+@import url('https://fonts.googleapis.com/css?family=Playfair Display');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.AuthPage{
+  display: flex;
+  /* position: relative; */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+}
+.bg{
+  display: flex;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.Authform{
+  position: absolute;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 650px;
+  width: 400px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.17);
+}
+.flower1{
+  position: absolute;
+  height: 300px;
+  width: 350px;
+  transform: rotate(10deg);
+  left: -5%;
+  top: 539px;
+  opacity: 30%;
+}
+.flower2{
+  position: absolute;
+  height: 300px;
+  width: 350px;
+  right: -5%;
+  top: -10%;
+  opacity: 30%;
+  transform: rotate(-170deg);
+}
+.checkbox{
+  display: flex;
+  flex-direction: row;
+}
+.checkbox input{
+  height: 17px !important;
+  width: 19px !important;
+  left: 5%;
+  /* left: 650px; */
+  top: 820px;
+  border-radius: 3px;
+
+}
+.checkbox p{
+  font-family: "Cinzel Decorative";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.08em;
+  text-align: left;
+  margin-right: 45px;
+
+}
+.formlogo{
+  height: 120px;
+  width: 170px;
+  /* left: 775px;
+  top: 205px; */
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 3%;
+}
+.formlogo img{
+  height: 100%;
+  width: 100%;
+}
+.Authform label{
+  font-family: 'Cinzel Decorative';
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0.13em;
+  margin-left: 7%;
+
+}
+.Authform input{
+  height: 42px;
+  width: 350px;
+  left: 649px;
+  top: 409px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 15px 0px #00000017;
+  left: 0;
+  right: 0;
+  margin: auto;
+
+
+}
+.verify{
+  height: 44px;
+  width: 182px;
+  left: 773px;
+  top: 879px;
+  border-radius: 8px;
+  background: #801323;
+  border: none;
+  color: white;
+  font-family: 'Cinzel Decorative';
+  font-weight: 76px;
+  font-size: 20px;
+  font-style: bold;
+  left: 0;
+  right: 0;
+  margin: auto;
+
+
+}
