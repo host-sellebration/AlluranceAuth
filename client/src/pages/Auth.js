@@ -99,7 +99,7 @@ function Auth() {
             type="checkbox" 
             required name="terms"
             /> 
-            <p> I ACCEPT TERMS AND CONDITIONS AS WELL <br/> AS PRIVACY POLICY FOR THIS WEBSITE</p>
+            <p> I <a className='policies'>ACCEPT TERMS</a> AND CONDITIONS AS WELL <br/> AS <a className='policies'>PRIVACY POLICY</a> FOR THIS WEBSITE</p>
             </div>
             <button className='verify'>VERIFY</button>
 

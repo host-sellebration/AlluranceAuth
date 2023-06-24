@@ -169,6 +169,14 @@ code {
   height: 35%;
   width: 70%;
 }
+.policies{
+  cursor: pointer;
+  text-decoration: underline;
+  color: #801323;
+}
+.policies:hover{
+  color: blue;
+}
 .verify{
   height: 44px;
   width: 182px;
@@ -629,4 +637,306 @@ code {
     border-radius: 16px;
     border: 2px solid #801323;
 
+  }
+
+  @media screen and (max-width:1200px){
+    .AuthPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .Authform{
+      display: flex;
+      position: relative;
+      /* padding: 1%; */
+      /* display: flex; */
+      flex-direction: column;
+      justify-content: center;
+      height: 100vh;
+      width: 100vw;
+      left: 0;
+      right: 0;
+      margin: auto;
+      /* border-radius: 20px; */
+      background-color: transparent;
+    
+    }
+    .bg{
+      display: flex;
+      height: 0%;
+      width: 0%;
+    }
+    .flower1{
+      width: 95.00000213849032px;
+      height: 91.00000204844862px;
+      top: -20px;
+      left: 320px;
+      transform: rotate(-170deg);
+
+    }
+    .flower2{
+      width: 94.9999999699748px;
+      height: 90.99999997123902px;
+      top: 790px;
+      left: -4px;
+      transform: rotate(9.31deg);
+
+    }
+    .loading{
+      display: flex;
+      position: absolute;
+      height: 130px;
+      width: 300px;
+      top: 30%;
+    }
+    .check-p{
+      display: flex;
+      position: absolute;
+      height: 7px;
+      width: 350px;
+      left: 50px;
+      top: 450px;
+      font-family: 'Libre Baskerville';
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 60px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: #801323;
+    
+    
+    
+    }
+
+    /* genuine page */
+    .logo{
+      display: flex;
+      position: absolute;
+      flex-direction: column !important;
+      padding: 0;
+  
+    }
+    .logo img{
+      display: flex;
+      position: absolute;
+      height: 45px;
+      width: 49px;
+      bottom: 340px;
+      left: -20px;
+
+  
+    }
+    .logo h2{
+      display: flex;
+      position: absolute;
+      height: 31px;
+      width: 100px;
+      font-family: 'Cinzel Decorative';
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 56px;
+      letter-spacing: -0.011em;
+      text-align: center;
+      color: #801323;
+      bottom: 270px;
+      left: -60px;
+    
+  
+    }
+    .ring{
+      display: flex;
+      position: absolute;
+      height: 95px;
+      width: 95px;
+      left: 15px;
+      top: -140px;
+      border-radius: 500px;
+      border: 2px solid #801323;
+      
+      
+  
+    }
+    .ring2{
+      display: flex;
+      position: absolute;
+      height: 83px;
+      width: 83px;
+      left: 4px;
+      top: 4px;
+      border-radius: 500px;
+      border: 2px solid #801323;
+      background-color: #801323;
+      opacity: 20%;
+      
+    }
+    .ring img{
+      display: flex;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+      bottom: 50px;
+      height: 90%;
+      width: 80%;
+    }
+    .ring p{
+      display: flex;
+      position: absolute;
+      color: #801323;
+      font-family: 'Cinzel Decorative';
+      font-size: 13px;
+      font-weight: 700;
+      line-height: 20px;
+      letter-spacing: -0.011em;
+      text-align: center;
+      bottom: -3px;
+      left: 20px;
+      height: 20px;
+      width: 99px;
+    }
+    .certificate{
+      display: flex;
+      position: absolute;
+      height: 137px;
+      width: 216px;
+      left: -55px;
+      top: -9px;
+      border-radius: 16px;
+      
+    }
+    .certificate img{
+      height: 100%;
+      width: 100%;
+      border-radius: 13px;
+    }
+    .downloadicon{
+      display: flex;
+      position: absolute;
+      height: 13px !important;
+      width: 13px !important;
+      margin-top: 115%;
+      margin-left: 115%;
+  
+    }
+    .digital-card{
+      font-family: 'Cinzel Decorative';
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 37px;
+      letter-spacing: -0.011em;
+      color: #801323;
+      margin-left: -40%;
+      margin-top: 115%;
+      
+  
+    }
+    .buymore{
+      display: flex;
+      position: absolute;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  
+    }
+    .buy-more p{
+      display: flex;
+      position: absolute;
+      align-items: center;
+      height: 24px;
+      width: 255px;
+      top: 550px;
+      border-radius: 16px;
+      padding: 16px 32px 16px 32px;
+      color: white;
+      background-color: #801323;
+      font-family: 'Cinzel Decorative';
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 48px;
+      letter-spacing: -0.011em;
+      left: 0;
+      right: 0;
+      margin: auto;
+      cursor: pointer;
+  
+  
+    }
+    .buy-more img{
+      display: flex;
+      position: absolute;
+      left: 80%;
+      top: 569px;
+      height: 2%;
+      cursor: pointer;
+    }
+    .rate{
+      display: flex;
+      position: absolute;
+      flex-direction: column;
+  
+    }
+    .rate p{
+      display: flex;
+      position: absolute;
+      font-family: 'Cinzel Decorative';
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 37px;
+      letter-spacing: -0.011em;
+      text-align: center;
+      color: #801323;
+      top: 180px;
+      width: 206px;
+      right: -100px;
+  
+  
+    }
+    .stars{
+      display: flex;
+      position: absolute;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      height: 24px;
+      width: 130px;
+
+      top: 235px;
+      right: -50px;
+  
+    }
+    .stars img{
+      cursor: pointer;
+      height: 100%;
+      width: 15%;
+    }
+    .review{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between !important;
+      align-items: center;
+      bottom: 50px;
+      width: 200px;
+      right: 100px;
+      
+  
+    }
+    .review p{
+      font-family: 'Cinzel Decorative';
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 37px;
+      letter-spacing: -0.011em;
+      text-align: center;
+      color: #801323;
+  
+    }
+    .review input{
+      height: 45px;
+      width: 248px;
+      top: 0px;
+      border-radius: 16px;
+      border: 2px solid #801323;
+  
+    }
+    
   }
